@@ -1,0 +1,88 @@
+/* Centering and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color:#0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Calculator box */
+.calculator {
+  background-color:#1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(128, 0, 128, 0.4);
+  width: 280px;
+}
+
+/* Display */
+.calculator input {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  text-align: right;
+  border: none;
+  border-radius: 10px;
+  background-color:#2a2a2a;
+  color:#c77dff;
+}
+
+/* Buttons */
+.calculator div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background:transparent;
+  color:#eb7734;
+  font-size:20px;
+  box-shadow:-8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+
+.calculator button {
+  width: 60px;
+  height: 45px;
+  font-size:20px;
+  box-shadow:-4px -4px 10px rgba(255, 255, 255,0.05),4px, 4px, 10px rgba(0,0,0,0.4);
+  border: none;
+  border-radius: 8px;
+  background-color:#3a3a3a;
+  color:#ffffff
+  cursor: pointer;
+  transition:all 0.2s ease;
+  
+}
+
+.calculator button:hover {
+  background-color:#5e35b1;
+}
+
+/* Operator buttons */
+.operators {
+  background-color:#7e57c2;
+  color:#fff;
+}
+
+.operators:hover {
+  background-color: #9575cd;
+  
+}
+
+/* Equal button */
+.equalBtn {
+ background-color:#ab47bc;
+ color:#fff;
+}
+
+.equalBtn:hover {
+  background-color:#8e24aa;
+}
